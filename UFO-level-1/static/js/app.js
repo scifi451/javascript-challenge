@@ -27,7 +27,7 @@ var button = d3.select("#filter-btn");
     var inputValue = SearchDate.property("value");
   
     console.log(inputValue);
-  
+
     var filteredData = UFOdata.filter(Sighting => Sighting.datetime === inputValue);
   
     console.log(filteredData);
@@ -46,3 +46,4 @@ var button = d3.select("#filter-btn");
         });
       });
 });
+
